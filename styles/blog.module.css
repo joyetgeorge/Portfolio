@@ -1,0 +1,81 @@
+.contentDiv {
+    padding: 10px;
+}
+
+.coverPhoto img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 20px 20px;
+}
+
+.content pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    /* border-left: 3px solid #f36d33; */
+    /* color: #666; */
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .blog {
+    margin: 0rem 2rem;
+  }
+  .content {
+    width: 100%;
+  }
+  .content img {
+    width: 100%;
+  }
+}
+
+.main {
+    display: flex;
+    gap: 1rem;
+}
+
+.article {
+    width: 75%;
+}
+
+.sideBar {
+    width: 25%;
+    height: 50%;
+    position: sticky;
+    top: 3.8rem;
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 20px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.image img {
+    border-radius: 100px;
+}
+
+.sideBar input {
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px #f4f4f4;
+}
+
+.sideBar button {
+  padding: 8px;
+  font-size: 15px;
+  background-color: #EA0F1E;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+}
