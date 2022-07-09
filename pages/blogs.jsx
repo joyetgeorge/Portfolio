@@ -49,7 +49,8 @@ export default function Blog({ data }) {
       <NavBar></NavBar>
       <div className={styles.title}>
         <h1>
-        <span style={{ color: "#FFFFFF" }}>Blogs</span><span style={{ color: "#EA0F1E" }}>.</span>
+          <span style={{ color: "#FFFFFF" }}>Blogs</span>
+          <span style={{ color: "#EA0F1E" }}>.</span>
         </h1>
       </div>
       <main className={styles.main}>

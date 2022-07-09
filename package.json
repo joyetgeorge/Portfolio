@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@iconscout/unicons": "^4.0.1",
     "@material-ui/core": "^4.12.4",
     "dotenv": "^16.0.1",
     "graphql": "^16.5.0",

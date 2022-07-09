@@ -65,9 +65,8 @@ export async function getStaticPaths() {
 
 export default function BlogPost({ post }) {
   return (
-    <div>
-      <NavBar></NavBar>
-      <div className={styles.main}>
+    <div className={styles.main}>
+        <NavBar></NavBar>
         <Head>
           <title>{post.title}</title>
         </Head>
@@ -85,24 +84,6 @@ export default function BlogPost({ post }) {
             ></div>
           </div>
         </div>
-        <aside className={styles.sideBar}>
-          <div>
-            <div className={styles.image}>
-              <img
-                unoptimized
-                src="https://i.ibb.co/hYdTj2N/jo.jpg"
-                width="100px"
-                height="100px"
-              />
-            </div>
-            <br />
-            <h1>Joyet George</h1>
-            <p>"Feel free to Connect"</p>
-            <input type="email" name="" id=""  />
-            <button>Subscribe</button>
-          </div>
-        </aside>
       </div>
-    </div>
   );
 }
