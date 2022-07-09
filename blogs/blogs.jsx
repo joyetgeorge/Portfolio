@@ -56,6 +56,7 @@ export default function Blog({ data }) {
       <main className={styles.main}>
         {data.posts.map((post) => (
           <BlogCard
+            key={post.slug}
             title={post.title}
             author={post.author}
             coverPhoto={post.coverPhoto}

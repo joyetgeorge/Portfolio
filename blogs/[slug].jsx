@@ -1,7 +1,7 @@
 import { GraphQLClient, gql } from "graphql-request";
 import styles from "../../styles/blog.module.css";
 import Head from "next/head";
-import NavBar from "../../components/navbar";
+import NavBar from "../components/navbar";
 
 const QUERY = gql`
   query Post($slug: String!) {

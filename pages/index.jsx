@@ -1,12 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/Portfolio.module.css";
-import Link from "next/link";
-import NavBar from "../components/navbar";
 import Image from "next/image";
 
 export default function Home() {
-  // console.log(data)
-  // console.log(data.title)
   return (
     <div className={styles.container}>
       <Head>
@@ -18,7 +14,7 @@ export default function Home() {
         <div className="landing xl:h-screen grid grid-cols-1  h-screen">
           <div className="self-center">
             <h1 className="text-5xl font-extrabold md:text-8xl">
-              Hello, I'm Joyet
+              Hello, I`&apos;`m Joyet
             </h1>
             <p className="md:text-2xl xl:w-1/2">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
