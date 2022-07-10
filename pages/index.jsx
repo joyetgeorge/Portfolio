@@ -13,29 +13,40 @@ export default function Home() {
       <main className="mx-3 sm:mx-32">
         <div className="landing xl:h-screen grid grid-cols-1  h-screen">
           <div className="self-center">
-            <h1 className="text-5xl font-extrabold md:text-8xl">
-              Hello, I`&apos;`m Joyet
-            </h1>
-            <p className="md:text-2xl xl:w-1/2">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
-              minima cupiditate blanditiis ipsa adipisci aliquid molestiae,
-              nulla ipsam amet assumenda iste dicta quae magni culpa fugit
-              soluta possimus quod debitis.
-            </p>
-            <div className="resume w-10">
-              <h1 className="text-black hover:text-red-600 ">
-                <span className="text-3xl ">
-                  <a
-                    className="text-black hover:text-red-600"
-                    href="https://raw.githubusercontent.com/joyetgeorge/resume/main/Joyet%20George%20%5BResume%5D%20(1).pdf"
-                  >
-                    Résumé
-                  </a>
-                </span>
-                <span className="ml-5">
-                  <span>→</span>
-                </span>
-              </h1>
+            <div className="md:grid md:grid-cols-2">
+              <div>
+                <h1 className="text-5xl font-extrabold md:text-8xl">
+                  Hello, I&apos;m Joyet
+                </h1>
+                <p className="md:text-2xl xl:w-1/2">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. In
+                  minima cupiditate blanditiis ipsa adipisci aliquid molestiae,
+                  nulla ipsam amet assumenda iste dicta quae magni culpa fugit
+                  soluta possimus quod debitis.
+                </p>
+                <div className="resume w-10">
+                  <h1 className="text-black hover:text-red-600 ">
+                    <span className="text-3xl ">
+                      <a
+                        className="text-black hover:text-red-600"
+                        href="https://raw.githubusercontent.com/joyetgeorge/resume/main/Joyet%20George%20%5BResume%5D%20(1).pdf"
+                      >
+                        Résumé 
+                      </a>
+                    </span>
+                    <span className="ml-5">
+                      <span>→</span>
+                    </span>
+                  </h1>
+                </div>
+              </div>
+              <div className="hidden xl:block">
+                <img
+                  className=""
+                  src="https://i.ibb.co/8XSkhJ9/img.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
           <div className="bottom-3 absolute">
