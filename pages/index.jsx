@@ -224,7 +224,7 @@ export default function Home() {
               Full-Stack Developer
             </h1>
             <h1 className="self-center group-hover:text-white hidden md:block">
-              
+             
             </h1>
             <div className="self-center mr-3 md:mr-10 group-hover:text-white">
               <div className="self-center border-2 group-hover:border-white border-black w-10 h-10 float-right text-center content-center rounded-full hidden md:block">
